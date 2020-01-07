@@ -1,3 +1,4 @@
+#coding=utf-8
 x = input("Podaj pesel ")
 while ((len(x)<11 or len(x)>11) or x.isdigit()==False or int(x[4:6])<1 or int(x[4:6])>31):
     if (len(x) < 11 and x.isdigit()==True):
@@ -29,7 +30,7 @@ elif(41<=MM<=52):
     YY ="21"+str(YY)
 elif(61<=MM<=72):
     YY = "22"+str(YY)
-m = ["Styczenia", "Lutego", "Marca", "Kwietnia", "Maja", "Czerwca", "Lipca", "Sierpnia", "Września", "Października", "Listopada", "Grudnia"]
+m = ["Stycznia", "Lutego", "Marca", "Kwietnia", "Maja", "Czerwca", "Lipca", "Sierpnia", "Września", "Października", "Listopada", "Grudnia"]
 
 if(MM == 81 or MM == 1 or MM == 21 or MM == 41 or MM == 61):
     MM = m[0]

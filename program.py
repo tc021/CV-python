@@ -56,7 +56,7 @@ elif(MM==91 or MM == 11 or MM == 31 or MM == 51 or MM == 71):
     MM = m[10]
 elif(MM==92 or MM == 12 or MM == 32 or MM == 52 or MM == 72):
     MM = m[11]
-print("Urodziłeś się " + str(YY) + " " + MM + " " + str(DD)+". Oraz jesteś " + p)
+print("Urodziłeś się " + str(DD) + " " + MM + " " +str(YY) +". Oraz jesteś " + p)
 
 
 
